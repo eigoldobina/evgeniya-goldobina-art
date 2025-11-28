@@ -237,4 +237,56 @@ nav a {
 
 .back-link a:hover {
     text-decoration: underline;
+
+}
+/* ===========================
+   MOBILE LAYOUT FIXES
+   =========================== */
+@media (max-width: 768px) {
+
+    /* Header container */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 10px;
+        gap: 10px;
+    }
+
+    /* Logo becomes smaller + centered */
+    .logo {
+        font-size: 22px;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    /* Navigation stacks vertically */
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    /* Hero text scales down */
+    .hero-title {
+        font-size: 36px;
+    }
+    .hero-subtitle {
+        font-size: 28px;
+    }
+
+    /* Prevent image zoom overflow */
+    .hero {
+        background-position: center top;
+        height: 70vh;
+    }
 }
