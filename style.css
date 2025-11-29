@@ -328,7 +328,7 @@ nav a {
     font-size: 1.1rem;
     margin-top: 20px;
     padding: 10px 0;
-    color: #555;   /* darker so it's visible */
+    color: #333;   /* darker so it's visible */
 }
 
 .hero-container img {
@@ -343,6 +343,7 @@ nav a {
         margin-top: 15px;
     }
 }
+
 
 
 
