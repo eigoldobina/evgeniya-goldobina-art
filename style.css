@@ -290,3 +290,37 @@ nav a {
         height: 70vh;
     }
 }
+/* ---------- MOBILE FIXES ---------- */
+@media (max-width: 768px) {
+
+    /* Hero section: show more of the painting */
+    .hero {
+        background-size: contain;     /* image not zoomed in */
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 60vh;                 /* shorter hero section */
+    }
+
+    /* Title smaller on phone */
+    .cursive-title {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    /* Header logo smaller */
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    /* Menu slightly smaller */
+    nav a {
+        font-size: 1rem;
+        margin: 0 8px;
+    }
+}
+
