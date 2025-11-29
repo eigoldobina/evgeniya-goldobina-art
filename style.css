@@ -323,4 +323,19 @@ nav a {
         margin: 0 8px;
     }
 }
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;  /* full screen */
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 110vh; /* fix mobile cutoff */
+    }
+}
+
 
