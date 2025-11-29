@@ -353,6 +353,15 @@ nav a {
         background-position: center;
     }
 }
+@media (max-width: 768px) {
+    .hero {
+        min-height: 50vh !important; /* override the 100vh */
+        height: 50vh !important;     /* enforce the height */
+        background-size: cover !important;
+        background-position: center !important;
+    }
+}
+
 
 
 
