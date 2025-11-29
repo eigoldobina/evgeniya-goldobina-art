@@ -331,28 +331,23 @@ nav a {
     min-height: 100vh;  /* full screen */
     width: 100%;
 }
-
-@media (max-width: 768px) {
-    .hero {
-        min-height: 110vh; /* fix mobile cutoff */
-    }
-}
-/* Mobile hero fix */
+/* MOBILE HERO FIX */
 @media (max-width: 768px) {
   .hero {
-    height: 70vh; /* reduce hero height on mobile */
-    background-size: cover;
-    background-position: center;
+    padding: 60px 20px 60px 20px !important;
+    background-size: cover !important;
+    background-position: center !important;
   }
 
-  .hero h1 {
-    font-size: 28px;   /* adjust title */
+  .cursive-title {
+    font-size: 40px !important;
   }
 
-  .hero p {
-    font-size: 16px;   /* adjust subtitle */
+  .subtitle {
+    font-size: 18px !important;
   }
 }
+
 
 
 
