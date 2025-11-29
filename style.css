@@ -59,8 +59,9 @@ nav a {
 .cursive-title {
     font-family: "Great Vibes", cursive;
     font-size: 80px;
-    color: white;
+    color: #222;
     text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    margin-top: 10px;
 }
 
 .subtitle {
@@ -348,6 +349,7 @@ nav a {
     color: #000 !important;
     background: transparent !important;
 }
+
 
 
 
