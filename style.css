@@ -347,6 +347,11 @@ nav a {
     font-size: 18px !important;
   }
 }
+@media (max-width: 768px) {
+  body {
+    background: red !important;
+  }
+}
 
 
 
