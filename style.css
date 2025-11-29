@@ -347,11 +347,13 @@ nav a {
     font-size: 18px !important;
   }
 }
-@media (max-width: 768px) {
-  body {
-    background: red !important;
-  }
+ .hero {
+        height: 60vh;
+        background-size: cover;
+        background-position: center;
+    }
 }
+
 
 
 
