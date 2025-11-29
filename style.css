@@ -67,7 +67,7 @@ nav a {
 .subtitle {
     font-size: 28px;
     font-style: italic;
-    color: white;
+    color: #222;
     text-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
@@ -349,6 +349,7 @@ nav a {
     color: #000 !important;
     background: transparent !important;
 }
+
 
 
 
