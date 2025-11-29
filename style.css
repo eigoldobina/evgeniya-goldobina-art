@@ -337,5 +337,22 @@ nav a {
         min-height: 110vh; /* fix mobile cutoff */
     }
 }
+/* Mobile hero fix */
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh; /* reduce hero height on mobile */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;   /* adjust title */
+  }
+
+  .hero p {
+    font-size: 16px;   /* adjust subtitle */
+  }
+}
+
 
 
