@@ -324,7 +324,7 @@ nav a {
     }
 }
 .hero {
-    background-image: url('hero.jpg');
+    background-image: url('Hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -361,6 +361,7 @@ nav a {
         background-position: center !important;
     }
 }
+
 
 
 
