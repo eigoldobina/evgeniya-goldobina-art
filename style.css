@@ -323,44 +323,8 @@ nav a {
         margin: 0 8px;
     }
 }
-.hero {
-    background-image: url('Hero.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;  /* full screen */
-    width: 100%;
-}
-/* MOBILE HERO FIX */
-@media (max-width: 768px) {
-  .hero {
-    padding: 60px 20px 60px 20px !important;
-    background-size: cover !important;
-    background-position: center !important;
-  }
 
-  .cursive-title {
-    font-size: 40px !important;
-  }
 
-  .subtitle {
-    font-size: 18px !important;
-  }
-}
- .hero {
-        height: 20vh;
-        background-size: cover;
-        background-position: center;
-    }
-}
-@media (max-width: 768px) {
-    .hero {
-        min-height: 50vh !important; /* override the 100vh */
-        height: 50vh !important;     /* enforce the height */
-        background-size: cover !important;
-        background-position: center !important;
-    }
-}
 
 
 
