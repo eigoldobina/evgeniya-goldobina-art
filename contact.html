@@ -28,14 +28,34 @@
     <h2 class="page-title">Contact</h2>
 
     <p class="contact-text">
-        I’m always happy to connect, answer questions, or discuss artwork.
-        Please feel free to reach out:
+        If you are interested in purchasing artwork, have questions, or want to collaborate,
+        please use the form below — I will get back to you as soon as possible.
     </p>
 
-    <div class="contact-info">
-        <p><strong>Email:</strong> <a href="mailto:eigoldobina@gmail.com">eigoldobina@gmail.com</a></p>
-        
-    </div>
+    <!-- Contact Form -->
+    <form class="contact-form" action="https://formsubmit.co/eigoldobina@gmail.com" method="POST">
+
+        <!-- FormSubmit settings -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New message from your Art Website">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://www.evgeniyagoldobinafineart.com/thankyou.html">
+
+        <!-- Name -->
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <!-- Email -->
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!-- Message -->
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message..." rows="6" required></textarea>
+
+        <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+
 </section>
 
 </body>
