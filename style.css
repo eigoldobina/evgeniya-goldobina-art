@@ -291,7 +291,14 @@ nav a {
 .back-link a:hover {
     text-decoration: underline;
 }
-
+footer {
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 60px;
+    font-size: 0.85rem;
+    color: #777;
+    border-top: 1px solid #ddd;
+}
 /* ===========================
    MOBILE LAYOUT FIXES
    =========================== */
@@ -392,6 +399,7 @@ nav a {
     color: #000 !important;
     background: transparent !important;
 }
+
 
 
 
